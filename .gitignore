@@ -1,0 +1,16 @@
+# Rust
+target/
+crates/core/pkg/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# SvelteKit
+frontend/.svelte-kit/
+frontend/build/
+
+# Misc
+.DS_Store
+*.env
+dist/
