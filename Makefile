@@ -12,7 +12,7 @@ build-wasm:
 build: build-wasm install
 	cd frontend && pnpm run build
 	@echo ""
-	@echo "✓ Output: frontend/dist/index.html  (fully self-contained)"
+	@echo "✓ Output: frontend/build/index.html  (fully self-contained)"
 
 dev:
 	cd frontend && pnpm run dev
